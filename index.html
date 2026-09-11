@@ -202,7 +202,7 @@
   }
   .back-btn{
     position:absolute;top:16px;left:16px;background:rgba(255,255,255,0.85);
-    border:none;border-radius:50%;width:34px;height:34px;font-size:16px;cursor:pointer;
+    border:none;border-radius:50%;width:34px;height:34px;font-size:20px;font-weight:900;cursor:pointer;
   }
   .rating-row{display:flex;align-items:center;gap:6px;font-size:14px;color:var(--sub);margin-bottom:2px;}
 
@@ -841,7 +841,7 @@ function renderDetail(){
 
   return `
   <div class="detail-hero" style="background-image:url('${thumbUri(c)}');position:relative;">
-    <button class="back-btn" data-back="1">←</button>
+    <button class="back-btn" data-back="1">⬅️</button>
     <span>${c.emoji}</span>
   </div>
   <div class="detail-body">
